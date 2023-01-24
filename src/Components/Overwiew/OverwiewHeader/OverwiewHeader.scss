@@ -1,0 +1,48 @@
+.OverwiewTop{
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 0 20px;
+    width: 100%;
+}
+.Overwiew_title{
+    padding: 36px 0px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+.Overwiew_img{
+    width: 20px;
+    border: none;
+}
+.Reporter_logo{
+    width: 20px;
+}
+.path{
+// position: absolute;
+// width: 0px;
+// height: 40px;
+// right: 480px;
+// border: 1px solid #DFE0EB;
+position: absolute;
+width: 0px;
+left: calc(50% - -425px);
+height: 32px;
+top: 40px;
+bottom: 0px;
+
+border: 1px solid #DFE0EB;
+}
+
+.title{
+    font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: right;
+letter-spacing: 0.2px;
+
+/* grayscale / black */
+
+color: #252733;
+}
