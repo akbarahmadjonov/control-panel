@@ -1,10 +1,10 @@
 body{
+    background: #F7F8FC !important;
    display: flex;
     flex-direction: column;
     font-family: Arial,sans-serif;
     height: 100%;
     margin: 0;
     padding-left: 255px;
-    background: #F7F8FC;
 }
     
