@@ -1,0 +1,89 @@
+.bg{
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 1120px !important;
+}
+
+.OverwiewTodayImg {
+    padding: 110px 30px 30px 10px;
+}
+.today_title{
+    font-size: 19px;
+line-height: 24px;
+
+
+letter-spacing: 0.4px;
+
+
+
+color: #252733;
+}
+
+.TodaySpan{
+    font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.1px;
+
+/* grayscale / gray */
+
+color: #9FA2B4;
+}
+
+.week_today{
+
+    font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.1px;
+
+/* grayscale / gray */
+
+color: #9FA2B4;
+}
+.week_yesterday{
+    margin-left: 56px;
+    margin-right: 32px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    
+    /* grayscale / gray */
+    
+    color: #9FA2B4;
+}
+
+
+.TodayList{
+    padding: 0;
+    width: 370px;
+
+}
+.TodayCard {
+    padding: 32px 0px 24px 0px ;
+}
+
+.TodayCard_text{
+    font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+text-align: center;
+letter-spacing: 0.3px;
+
+/* grayscale / gray */
+
+color: #9FA2B4;
+}
+
+.TodayCard_number{
+    font-size: 24px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.3px;
+
+/* grayscale / black */
+
+color: #252733;
+
+}
