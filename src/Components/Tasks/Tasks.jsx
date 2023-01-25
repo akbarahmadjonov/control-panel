@@ -23,14 +23,14 @@ export const Tasks = () => {
   const handleTodo = (evt) => {
     evt.preventDefault();
     setTodos([
-    ...todos,
       {
         id: todos.at(-1)?.id + 1 || 1,
         text: inputVal.current.value,
         isCompleted: false,
         isModal: modal,
         isClass: modalClass
-      }
+      },
+      ...todos,
     ])
   }
 
