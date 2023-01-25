@@ -3,13 +3,11 @@ import { Tasks } from './Components/Tasks'
 import { Header } from './Components/Header';
 import { OverwiewHeader } from './Components/Overwiew/OverwiewHeader';
 import { OverwiewCard } from './Components/Overwiew/OverwiewCard';
-import {OverwiewToday} from "./Components/Overwiew/OverwiewToday";
+import { OverwiewToday } from "./Components/Overwiew/OverwiewToday";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return <div className="App">
-    <h1>Hello world
-    </h1>
-    <Unresolved/>
     <Header/>
     <OverwiewHeader/>
     <OverwiewCard/>

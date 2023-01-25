@@ -1,1 +1,1 @@
-export *from "./OverwiewCard"
+export * from "./OverwiewCard"

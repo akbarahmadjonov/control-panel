@@ -1,20 +1,18 @@
 const TasksData = [
     {
-        id: 0,
-        isCompleted: false,
-        text: 'Finish ticket update',
-        isTime: 'URGENT'
-    },{
         id: 1,
-        isCompleted: false,
-        text: 'Create new ticket example',
-        isTime: 'NEW'
+        text: 'URGENT',
+        class: 'btn btn-warning p-1 rounded ms-auto text-white'
     },
-    {
+     {
         id: 2,
-        isCompleted: false,
-        text: 'Update ticket report',
-        isTime: 'DEFAULT'
+        text: 'NEW',
+        class: 'btn btn-success p-1 rounded ms-auto text-white'
+    },
+      {
+        id: 3,
+        text: 'DEFAULT',
+        class: 'btn btn-light p-1 rounded ms-auto text-white'
     },
 ]
 export default TasksData;
