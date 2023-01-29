@@ -1,6 +1,6 @@
-import NavbarData from "./NavbarData" 
+import {NavbarData} from "./NavbarData" 
 import "./Header.scss"
-import logo from "../../assets/images/logo.svg"
+import logo from "../../Assets/Images/logo.svg"
 export const Header=()=>{
     return(
 <header className="site_header">
