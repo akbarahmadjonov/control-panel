@@ -1,7 +1,7 @@
 import "./OverwiewHeader.scss"
-import SearchLogo from "../../../assets/images/search-icon.svg"
-import Reporter from "../../../assets/images/notification-icon.svg"
-import User from "../../../assets/images/account__user.png"
+import SearchLogo from "../../../Assets/Images/search-icon.svg"
+import Reporter from "../../../Assets/Images/notification-icon.svg"
+import User from "../../../Assets/Images/account__user.png"
 export const OverwiewHeader=()=>{
     return(
        <div className="OverwiewTop d-flex align-items-center ">

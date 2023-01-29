@@ -1,8 +1,8 @@
 import "./OverwiewToday.scss"
 import OverwiewTodayData from "./OverwiewTodayData"
-import TodayImg from "../../../assets/images/todays-img.png"
-import Line1 from "../../../assets/images/divider.svg"
-import Line2 from "../../../assets/images/divider2.svg"
+import TodayImg from "../../../Assets/Images/todays-img.png"
+import Line1 from "../../../Assets/Images/divider.svg"
+import Line2 from "../../../Assets/Images/divider2.svg"
 export const OverwiewToday = () => {
     return (
         <div className=" bg OverwiewTop  d-flex  mt-4 ">
