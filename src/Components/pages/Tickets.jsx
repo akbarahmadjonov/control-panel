@@ -26,10 +26,10 @@ export const Tickets = () => {
           </div>
           <div>
             <button className="me-4 buttons">
-              <i class="fa-solid fa-arrow-up-short-wide"></i> Sort
+              <i className="fa-solid fa-arrow-up-short-wide"></i> Sort
             </button>
             <button className="buttons">
-              <i class="fa-solid fa-filter-circle-xmark"></i> Filter
+              <i className="fa-solid fa-filter-circle-xmark"></i> Filter
             </button>
           </div>
         </div>
@@ -44,11 +44,16 @@ export const Tickets = () => {
             </tr>
           </thead>
           {TicketName.map((users) => (
-            <tbody>
+            <tbody key={users.id}>
               <tr>
                 <td>
                   <div className="d-flex align-items-center">
-                    <img src={users.img} className="rounded-circle" alt="" />
+                    <img
+                      key={users.id}
+                      src={users.img}
+                      className="rounded-circle"
+                      alt=""
+                    />
                     <div className="ms-3">
                       <p className="mb-1 userText">{users.text}</p>
                       <p className="text-muted mb-0">{users.lowerText}</p>
@@ -80,7 +85,7 @@ export const Tickets = () => {
                     className="btn btn-link btn-rounded btn-sm fw-bold"
                     data-mdb-ripple-color="dark"
                   >
-                    <i class="fa-solid fa-ellipsis-vertical dots"></i>
+                    <i className="fa-solid fa-ellipsis-vertical dots"></i>
                   </button>
                 </td>
               </tr>

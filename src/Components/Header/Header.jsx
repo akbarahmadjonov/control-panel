@@ -13,8 +13,11 @@ export const Header = () => {
         </a>
         <nav className="nav mt-5 pt-4  ">
           <ul className="nav__list">
-            {NavbarData.map((item) => (
-              <li className="list-unstyled mb-3 list-up d-flex pt-4">
+            {NavbarData.map((item, index) => (
+              <li
+                key={index}
+                className="list-unstyled mb-3 list-up d-flex pt-4"
+              >
                 <Link to="/" className="navbar_link ">
                   <img
                     className="navbar_img mx-3 "

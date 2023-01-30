@@ -7,7 +7,7 @@ export const OverwiewHeader = () => {
     <div className="OverwiewTop d-flex align-items-center ">
       <h2 className="Overwiew_title">Overview</h2>
       <div className="Overwiew_navbar ms-auto">
-        <button className="btn  ">
+        <button className="btn">
           <img className="Overwiew_img" src={SearchLogo} alt="Search_logo" />
         </button>
         <button className="btn me-5 ">
