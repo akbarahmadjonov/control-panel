@@ -5,20 +5,18 @@ import { useRef, useState } from "react";
 export const Tasks = () => {
   let [todos, setTodos] = useState([]);
   // let [modal, setModal] = useState('');
-  let [closest, setClosest] = useState(true)
+  let [closest, setClosest] = useState(true);
   let [modal, setModal] = useState([]);
   let [modalClass, setModalClass] = useState([]);
 
-  const handleOpenModal = () => {
-    
-  }
+  const handleOpenModal = () => {};
 
   const handleButtonId = (evt) => {
     const todoId = evt.target.dataset.todoId;
-    const foundIndex = TasksData.find((task) => task.id == todoId)
-    setModal(foundIndex.text) 
-    setModalClass(foundIndex.class)
-  } 
+    const foundIndex = TasksData.find((task) => task.id === todoId);
+    setModal(foundIndex.text);
+    setModalClass(foundIndex.class);
+  };
 
   const handleTodo = (evt) => {
     evt.preventDefault();
@@ -28,11 +26,11 @@ export const Tasks = () => {
         text: inputVal.current.value,
         isCompleted: false,
         isModal: modal,
-        isClass: modalClass
+        isClass: modalClass,
       },
       ...todos,
-    ])
-  }
+    ]);
+  };
 
   let inputVal = useRef();
 
@@ -43,7 +41,7 @@ export const Tasks = () => {
     }
 
     //* Clears the input
-    setClosest(false)
+    setClosest(false);
     // inputVal.current.value = ''
   };
 
@@ -78,27 +76,36 @@ export const Tasks = () => {
             type="checkbox"
           />
           <span className="ResolveList__Item ms-3">{task.text}</span>
-          <button className={task.isClass}>
-            {task.isModal} 
-          </button>
+          <button className={task.isClass}>{task.isModal}</button>
         </li>
       ))}
 
-      <form className={closest ? 'd-none' : ''} onSubmit={handleSubmit}>
-      <div className="NewModal shadow-lg ">
-      <h4 className="text-center">Select status</h4>
-      <div className="NewModal__buttons">
-            {
-              TasksData.map((task) => <div className="NewModal__buttons" key={task.id}>
-                <button onClick={handleButtonId} data-todo-id={task.id} type="submit" className={task.class}>{task.text}</button>
-              </div>)
-            }
-      </div>
-      <button onClick={handleTodo} type="submit" className="mt-2 btn btn-light  w-100">
-        <span className="fa-solid fa-plus icon"></span>
-      </button>
-    </div>
-    </form>
+      <form className={closest ? "d-none" : ""} onSubmit={handleSubmit}>
+        <div className="NewModal shadow-lg ">
+          <h4 className="text-center">Select status</h4>
+          <div className="NewModal__buttons">
+            {TasksData.map((task) => (
+              <div className="NewModal__buttons" key={task.id}>
+                <button
+                  onClick={handleButtonId}
+                  data-todo-id={task.id}
+                  type="submit"
+                  className={task.class}
+                >
+                  {task.text}
+                </button>
+              </div>
+            ))}
+          </div>
+          <button
+            onClick={handleTodo}
+            type="submit"
+            className="mt-2 btn btn-light  w-100"
+          >
+            <span className="fa-solid fa-plus icon"></span>
+          </button>
+        </div>
+      </form>
     </div>
   );
 };

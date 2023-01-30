@@ -1,7 +1,7 @@
 import NavbarData from "./NavbarData";
 import "./Header.scss";
 import logo from "../../assets/images/logo.svg";
-import Tickets from "../../Components/pages/Tickets";
+// import Tickets from "../../Components/pages/Tickets";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
