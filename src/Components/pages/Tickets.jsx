@@ -17,7 +17,7 @@ export const Tickets = () => {
 
       <div className="container table-user">
         <button onClick={() => navigate(-1)} className="button mb-4">
-          <img src={ArrowLeft} alt='img' />
+          <img src={ArrowLeft} alt="img" />
           Back
         </button>
         <div className="d-flex justify-content-between mb-4">
