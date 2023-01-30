@@ -17,7 +17,7 @@ export const Unresolved = () => {
 
       {
         UnresolvedData.map((resolved) =>  
-        <li className="ResolveList__Item">
+        <li className="ResolveList__Item" key={resolved?.id}>
             <p>{resolved.text}</p>
           <p className="ResolveList__Amount">{resolved.amount}</p>
         </li>

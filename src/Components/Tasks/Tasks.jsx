@@ -71,7 +71,7 @@ export const Tasks = () => {
       </form>
 
       {todos.map((task) => (
-        <li className="list d-flex align-items-center">
+        <li className="list d-flex align-items-center" key={task.id}>
           <input
             className="form-check-input"
             onChange={task.isCompleted}
@@ -89,7 +89,7 @@ export const Tasks = () => {
       <h4 className="text-center">Select status</h4>
       <div className="NewModal__buttons">
             {
-              TasksData.map((task) => <div className="NewModal__buttons">
+              TasksData.map((task) => <div className="NewModal__buttons" key={task.id}>
                 <button onClick={handleButtonId} data-todo-id={task.id} type="submit" className={task.class}>{task.text}</button>
               </div>)
             }

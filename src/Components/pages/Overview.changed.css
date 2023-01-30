@@ -1,0 +1,164 @@
+.OverwiewTop {
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 0 20px;
+  width: 100%;
+}
+.Overwiew_title {
+  padding: 36px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+.Overwiew_img {
+  width: 20px;
+  border: none;
+}
+.Reporter_logo {
+  width: 20px;
+}
+.path {
+  position: absolute;
+  width: 0px;
+  height: 40px;
+  right: 480px;
+  border: 1px solid #dfe0eb;
+  position: absolute;
+  width: 0px;
+  left: calc(50% - -425px);
+  height: 32px;
+  top: 40px;
+  bottom: 0px;
+
+  border: 1px solid #dfe0eb;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: right;
+  letter-spacing: 0.2px;
+
+  /* grayscale / black */
+
+  color: #252733;
+}
+
+.rounded-circle {
+  width: 45px;
+  height: 45px;
+}
+
+.table-user {
+  padding: 70px 60px 30px 60px !important;
+}
+
+thead tr {
+  color: #9fa2b4;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+tbody tr:hover td,
+tbody tr:hover th {
+  background: #ecf0fc;
+}
+
+.arrow {
+  padding: 5px;
+}
+
+.arrow:hover {
+  background-color: #ecf0fc;
+}
+
+.dots {
+  padding: 10px;
+  border-radius: 10px;
+  color: #c5c7cd;
+  font-size: 20px;
+}
+
+.dots:hover {
+  background-color: #fafafa;
+}
+
+.buttons {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+.buttons:hover {
+  background-color: #e6ecff;
+}
+
+.high {
+  padding: 5px 12px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background-color: #f12b2c;
+  border-radius: 100px;
+  color: #ffffff;
+}
+
+.low {
+  padding: 5px 12px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background-color: #fec400;
+  border-radius: 100px;
+  color: #ffffff;
+}
+
+.normal {
+  padding: 5px 12px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background-color: #29cc97;
+  border-radius: 100px;
+  color: #ffffff;
+}
+
+.userText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+table td {
+  padding: 20px !important;
+}
+
+.button {
+  padding: 9px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ecf0fc;
+}
+
+.button:hover {
+  background-color: #e6ecff;
+}

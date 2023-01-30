@@ -1,13 +1,22 @@
-.site_header{
-    background-color: #363740;
-    display: block;
-    height: 100vh;
-    left: 0;
-    max-width: 255px;
-    padding: 37px 0;
-    position: fixed;
-    width: 100%;
+.site_header {
+  background-color: #363740;
+  display: block;
+  height: 100vh;
+  left: 0;
+  max-width: 255px;
+  padding: 37px 0;
+  position: fixed;
+  width: 100%;
 }
-.nav-span{
-    color: #DDE2FF;
+
+.nav-span {
+  text-decoration: none;
+  color: #dde2ff;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.nav-span:hover {
+  color: #a7b2f0;
 }

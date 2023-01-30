@@ -16,6 +16,7 @@ const NavbarData = [
   {
     icon: Icon2,
     text: "Tickets",
+    link: "Tickets",
   },
   {
     icon: Icon3,

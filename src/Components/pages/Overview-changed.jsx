@@ -1,11 +1,11 @@
-import "./OverwiewHeader.scss";
-import SearchLogo from "../../../assets/images/search-icon.svg";
-import Reporter from "../../../assets/images/notification-icon.svg";
-import User from "../../../assets/images/account__user.png";
-export const OverwiewHeader = () => {
+import "./Overview.changed.css";
+import SearchLogo from "../../assets/images/search-icon.svg";
+import Reporter from "../../assets/images/notification-icon.svg";
+import User from "../../assets/images/account__user.png";
+const OverviewTickets = () => {
   return (
     <div className="OverwiewTop d-flex align-items-center ">
-      <h2 className="Overwiew_title">Overview</h2>
+      <h2 className="Overwiew_title">Tickets</h2>
       <div className="Overwiew_navbar ms-auto">
         <button className="btn  ">
           <img className="Overwiew_img" src={SearchLogo} alt="Search_logo" />
@@ -24,3 +24,5 @@ export const OverwiewHeader = () => {
     </div>
   );
 };
+
+export default OverviewTickets;
